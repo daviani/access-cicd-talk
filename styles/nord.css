@@ -1,0 +1,54 @@
+:root {
+  /* Nord Polar Night */
+  --nord0: #2E3440;
+  --nord1: #3B4252;
+  --nord2: #434C5E;
+  --nord3: #4C566A;
+
+  /* Nord Snow Storm */
+  --nord4: #D8DEE9;
+  --nord5: #E5E9F0;
+  --nord6: #ECEFF4;
+
+  /* Nord Frost */
+  --nord7: #8FBCBB;
+  --nord8: #88C0D0;
+  --nord9: #81A1C1;
+  --nord10: #5E81AC;
+
+  /* Nord Aurora */
+  --nord11: #BF616A;
+  --nord12: #D08770;
+  --nord13: #EBCB8B;
+  --nord14: #A3BE8C;
+  --nord15: #B48EAD;
+
+  /* Slidev theme overrides */
+  --slidev-theme-primary: var(--nord10);
+  --slidev-theme-text: var(--nord0);
+  --slidev-theme-background: var(--nord6);
+}
+
+.slidev-layout {
+  background-color: var(--nord6);
+  color: var(--nord0);
+}
+
+.slidev-layout h1 {
+  color: var(--nord0);
+  font-weight: 700;
+}
+
+.slidev-layout h2 {
+  color: var(--nord2);
+  font-weight: 600;
+}
+
+.slidev-layout a {
+  color: var(--nord10);
+}
+
+.slidev-layout code {
+  background-color: var(--nord5);
+  color: var(--nord1);
+}
