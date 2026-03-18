@@ -23,7 +23,7 @@
   --nord14: #A3BE8C;
   --nord15: #B48EAD;
 
-  /* Slidev theme overrides */
+  /* Slidev theme overrides — light mode */
   --slidev-theme-primary: var(--nord10);
   --slidev-theme-text: var(--nord0);
   --slidev-theme-background: var(--nord6);
@@ -32,6 +32,8 @@
 .slidev-layout {
   background-color: var(--nord6);
   color: var(--nord0);
+  position: relative;
+  z-index: 1;
 }
 
 .slidev-layout h1 {
