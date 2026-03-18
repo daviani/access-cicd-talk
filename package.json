@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "slidev --open",
+    "dev": "slidev --open --remote",
     "build": "slidev build",
     "export": "slidev export"
   },
@@ -14,6 +14,7 @@
   "type": "commonjs",
   "dependencies": {
     "@slidev/cli": "^52.14.1",
-    "@slidev/theme-default": "^0.25.0"
+    "@slidev/theme-default": "^0.25.0",
+    "qrcode": "^1.5.4"
   }
 }
