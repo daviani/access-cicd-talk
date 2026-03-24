@@ -104,8 +104,8 @@ transition: slide-left
   <h1 class="text-4xl font-bold mb-6" style="color: #2E3440;">Pourquoi l'accessibilité ?</h1>
 
   <p class="text-xl mb-8" style="color: #4C566A;">
-    Après avoir rendu une app accessible en entreprise,<br>
-    j'ai voulu appliquer la même rigueur à <strong>mon portfolio</strong>.
+    Après avoir rendu des applications accessibles en entreprise,<br>
+    j'ai voulu appliquer la même rigueur à <strong>mon site daviani.dev</strong>.
   </p>
 
   <p class="text-xl" style="color: #4C566A;">
